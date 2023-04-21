@@ -1,0 +1,160 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    color: white;
+    font-family: sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #cef6e6;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    background-color: #003329;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-indent: 50px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.text {
+    position: absolute;
+}
+
+.text h1 {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 5em;
+}
+
+.text a {
+    background-color: #003329;
+    display: block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*  */
+.Services {
+    background-color: #003329;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+#image {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+    position: relative;
+}
+
+.info p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact {
+    font-style: italic;
+}
+
+#link a{
+    color: #cef6e6;
+}
+
+
+@media (orientation: portrait) {
+    .banner {
+        height: 80vh;
+    }
+    .text h1{
+        color: #003329;
+    }
+
+    .ser {
+        margin-bottom: 50px;
+    }
+    .image {
+        height: 130px;
+        width: 130px;
+    }
+    #image {
+        height: 130px;
+        width: 130px;
+    }
+    .info {
+        margin-left: -30px;
+    }
+    .info p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #name {
+        font-size: 25px;
+    }
+
+}
